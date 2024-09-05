@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url('image/pattern-background-desktop.svg') #e0e8ff no-repeat;
+    display: flex;
+    background-size: 100%;
+    background-position: top;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:"red hat display", sans-serif;
+}
+.first{
+   max-width: 377px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.image img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1{
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    color: #28345f;
+}
+.content p{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #777e8f;
+    font-size: 14px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    width: 100%;
+    margin: 25px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #28345f;
+}
+h3{
+    font-size: 15px;
+    padding: 4px;
+}
+h4{
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btnproceed{
+    background-color: #1E1FCD;
+    color: white;
+    width: 100%;
+    padding: .8rem 1rem;
+    border: 0;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 11px 20px 0px #1e1fcd45;
+    font-size: 12px;
+    font-weight: 700;
+}
+.forth{
+    padding-bottom: 30px;
+    font-weight: 900;
+    color: #2724248c;
+    padding-top: 10px;
+    font-size: small;
+}
+.manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6px;
+    gap: 11px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 32px 20px;
+    color: #ced8fb;
+}
+.manage1{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.fifth{
+    width: 100%;
+}
+.sixth{
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    align-items: center;
+}
+.sixth img{
+    width: 40px;
+}
+.hqy a{
+    padding: 17px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #392fab;
+}
